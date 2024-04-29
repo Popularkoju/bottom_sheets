@@ -102,6 +102,7 @@ class ExpandedBottomSheetState extends State<ExpandedBottomSheet> {
               left: 0,
               right: 0,
               duration: const Duration(milliseconds: 100),
+              curve: Curves.ease,
               child: GestureDetector(
                 onVerticalDragUpdate: onVerticalDragUpdate,
                 onVerticalDragEnd: onVerticalDragEnd,
